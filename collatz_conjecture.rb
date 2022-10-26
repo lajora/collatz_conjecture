@@ -25,4 +25,4 @@ longest_collatz(500)
 longest_collatz(500_000)
 finish = Time.now
 
-p(finish - start)
+p "Runtime is #{(finish - start)} seconds"
